@@ -10,3 +10,4 @@ puts "Select any single space left tp right, top to bottom, by inputting the cor
 input = gets.strip
 index = input_to_index(input)
 move(board, index, "X")
+display_board(board)
